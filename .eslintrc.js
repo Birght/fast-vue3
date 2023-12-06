@@ -1,3 +1,11 @@
+/*
+ * @Author: shiwanyu shi.wy@neusoft.com
+ * @Date: 2023-12-04 10:54:25
+ * @LastEditors: shiwanyu shi.wy@neusoft.com
+ * @LastEditTime: 2023-12-06 14:37:31
+ * @FilePath: \fast-vue3\.eslintrc.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 module.exports = {
   root: true,
   env: {
@@ -25,11 +33,9 @@ module.exports = {
     'no-case-declarations': 'off',
     'no-use-before-define': 'off',
     'space-before-function-paren': 'off',
-
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
-
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
@@ -59,6 +65,7 @@ module.exports = {
     'vue/attribute-hyphenation': 'off',
     'vue/require-default-prop': 'off',
     'vue/require-explicit-emits': 'off',
+    'vue/no-v-html': 'off',
     'vue/html-self-closing': [
       'error',
       {
